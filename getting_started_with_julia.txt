@@ -1,0 +1,27 @@
+I am preparing for the “Working Workshop – Python and Julia for Geophysics” in August 8-11, 2018. I have recently become interested in Julia because it provides fast execution rates like C and Fortran with easy memory management and interpretive execution like Python. Julia also allows existing functions written in other languages (e.g. C, Fortran, Python) to be easily called. I believe this collection of links to tutorials, cheat sheets, and examples geophysical code will help me learn more about Julia.
+
+Overview of benefits of Julia:
+https://agilescientific.com/blog/2014/9/4/julia-in-a-nutshell.html
+https://en.wikipedia.org/wiki/Ousterhout%27s_dichotomy
+
+tutorials and cheatsheets:
+https://learnxinyminutes.com/docs/julia/ 
+https://sylvaticus.gitbooks.io/julia-language-a-concise-tutorial/content/
+https://juliabyexample.helpmanual.io
+http://math.mit.edu/~stevenj/Julia-cheatsheet.pdf
+
+Code from SAIG (Mauricio Sachhi’s group at University of Alberta):
+https://github.com/SeismicJulia/Seismic.jl with documentation http://seismicjulia.github.io/Seismic.jl/
+
+Code to solve geophysical inverse problems (e.g. tomography, fwi):
+https://github.com/JuliaInv/jInv.jl described in
+http://juliacon.org/2017/talks#lightning-27 and
+https://arxiv.org/pdf/1606.07399.pdf
+
+Graham Ganssle’s fwi tutorial written in Julia:
+https://github.com/gganssle/tle_fwi
+
+Madagascar interface:
+$RSFSRC/api/julia/m8r.jl with test directory:
+$RSFSRC/api/julia/test
+

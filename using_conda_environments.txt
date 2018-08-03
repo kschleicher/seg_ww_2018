@@ -1,0 +1,20 @@
+•I often want to preserve my Python configuration when I try something new like:
+   –Try Python 3 and leave Python 2 as my default
+   –Avoid cluttering my system by installing a package when you just want to 
+     experiment.
+•If you are using Anaconda python distribution (a good idea) this is easy.  
+  Get AncondaPython at:
+     https://www.anaconda.com/download/#macos
+
+# make the environment (takes 15 min on my Mac on UT’s wifi)
+conda create -n myenv python=3.6 ipython jupyter seaboard
+# start it in a single terminal (this runs quickly)
+source activate myenv
+# install obspy.  It will be there if you deactivate and reactivate myenv
+conda install obspy
+# start notebook
+jupyter notebook
+# exit env (runs quickly)
+source deactivate
+# its optional, but you can remove the env:
+conda remove --name myenv --all

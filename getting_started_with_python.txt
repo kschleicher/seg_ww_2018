@@ -1,0 +1,22 @@
+I am preparing for the “Working Workshop – Python and Julia for Geophysics” in August by making a list of Python examples.  I hope you find these code repositories useful.
+  
+Madagascar 
+The Madagascar software package (http://www.ahay.org/wiki/Main_Page) uses scons, a version of “make” based on python, to install the processing system and run the reproducible processing experiments. 
+
+Examples where Python is used for data computations include:
+Sfnderiv computes first, second, and third derivative operators using python.  The code is at: $RSFSRC/build/user/ediazp/nderiv.py and the scons computational test is at $RSFSRC/book/rsf/rsf/sfnderiv
+
+Code and test scripts to interpolate a manually picked velocity functions to a 3D velocity grid is in $RSFSRC/data/teapotdome/vels/interpvel.py.
+
+Code to load 2D geometry into trace headers is in $RSFSRC/data/eastcoast32/madagascar/sftahloadgeom.py.
+
+segyio
+Segyio is a small LGPL licenced C library with binding for Python3 and Matlab.  The file https://github.com/Statoil/segyio/blob/master/README.md includes sections to get segyio and a tutorial with examples.
+
+xlines
+xlines is a collection if python 3 jupyter notebooks for geoscience worklows in x lines, where is (approximately)  x<=10.  The https://github.com/agile-geoscience/xlines link has a button that allows you to run the notebooks on Microsoft Azure without installing anything on your computer.  There is also a section in the README.md that explains how to use the environments capability in Anaconda to run Python3 without changing the python2 configuration of your computer.  I used https://github.com/agile-geoscience/xlines/blob/master/notebooks/07_Find_and_analyse_seismograph_data.ipynbto to learn how to download earthquake data from online data archives (eg IRIS).
+
+SEG tutorials
+A series of tutorials from The Leading Edge mostly contain Jupyter notebooks with Python3 code.  There are several repositories at https://github.com/seg.
+
+Do you have some favorite examples of using Python in Geophysics?  Next time I will share some examples of Julia in Geophysics.

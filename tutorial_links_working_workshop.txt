@@ -1,0 +1,72 @@
+Links for learning at the working workshop
+
+I am collecting some useful tutorial information for the 2018 working workshop 
+at https://github.com/kschleicher/seg_ww_2018.   A quickstart guide to git read
+the 8-minute guide to GitHub and how developers use it to share code: 
+https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffcc.im%2F2oBIFjg&data=02%7C01%7C%7Cbb98d3e37f9d452dfb2408d57f950c2a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C636555200480105260&sdata=RF4fO%2F3jWgyhGK5wEAg4Y5Ypir8%2BEHTYtGNavwBvvyw%3D&reserved=0
+
+If you have git installed on your computer you can clone the seg_ww_2018 
+repository with:
+cd 'directory you want to put the git directory seg_ww.2018'
+git clone https://github.com/kschleicher/seg_ww_2018
+You can now "cd seg_ww_2018" and checkout this tutorial material.  This file is
+tutorial_links_working_workshop.txt
+
+
+Configuring your system for the working workshop
+   installing linux on a ssd usb drive:
+         installing_linux_on_a_ssd_usb_drive.txt
+   Installing Anaconda python distribution – you need to google for 
+       instructions.
+   Creating anaconda virtual environments
+         using_conda_environments.txt
+
+Building Madagascar on Linux or Mac. 
+http://www.ahay.org/wiki/Installation#Installation_from_source
+also read the "advanced installation" guide about prerequisites that must be 
+installed.
+
+Learning python
+   Jupyter notebook- To learn a litle read:
+       getting_started_with_jupyter_notebooks.txt 
+   Mathlab users may find NumPy4MATLAB_users.pdf useful
+   More information is in getting_started_with_python.txt
+   There are video tutorials for basic python, numpy, and matplotlib from 
+       2017 scipy conference  at:
+https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf
+       I recommend:
+            Software Carpentry Scientific Python Course.  If you already know 
+               it, skip the linux portion of the video.      
+            Introduction to Numerical Computing with NumPy
+            Anatomy of Matplotlib    
+  
+   Read and writ Madagascar data: simple_m8r_create_write_filter_read.ipynb
+   Reading and writing segy data:
+       Segyio is a small LGPL licenced C library with binding for Python3 and 
+           Matlab. The file:
+            https://github.com/Statoil/segyio/blob/master/README.md includes 
+            sections on how to get segyio and a tutorial with examples.
+   TLE tutorials can inspite.  read:
+      https://wiki.seg.org/wiki/Geophysical_tutorials
+      clone:
+      git clone http://github.com/seg/tutorials
+      cd tutorials
+      git clone http://github.com/seg/tutorials-2016
+      cd tutorials-2016/1610_Facies_Classification
+      jupyter notebook
+      read
+        https://wiki.seg.org/wiki/Facies_classification_using_machine_learning
+
+   Many are motivated to work on machine learning. Read the previous 
+   	Facies_classification_using_machine_learning
+      git clone http://github.com/seg/2016-ml-contest
+   Many are interested in python to work in tensorflow to develop 
+      Convolutional Neural Nets (CNN's).  This is an advanced topic.  There 
+      is an online coursera by Andrew Ng at coursera.  There are 5 sections to
+      the class, each is about 5 weeks.  They cost about $50 each.  I think 
+      fast.ai is free. Maybe you know others,  
+ 
+Learning Julia
+   More information is in getting_started_with_julia.txt
+   	
+

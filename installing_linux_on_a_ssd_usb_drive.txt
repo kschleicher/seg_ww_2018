@@ -1,0 +1,35 @@
+You may be interested in experimenting with Linux, but do not want to 
+permanently install the operating system on your Windows computer. You might 
+want to use Linux for a short class or working workshop and do not want to 
+repartition your disk, or you may be forbidden to install Linux on your 
+company’s computer. I have tried to use Virtual Machines and Docker, but I was 
+not happy with results. Recently I installed Linux on a USB connected Solid 
+State Disk and created a good experimental system.
+
+My first experiment was with a $25 Patriot 64GB USB 3 thumb drive. I could not 
+use this system for simple web browsing. I heard that I should use a Solid 
+State Disk (SSD). SSD was reputed to be much faster then a flash Drive.
+
+I tried a $117 Samsung 250GB SSD and a $35 iRecadata 64GB connected with USB3 
+and created systems that function well. They are a little faster than my 5 year
+old Macbook Pro which continues to serve me well. The runtime to download a 2D 
+land seismic line and apply simple time preprocessing using the Madagascar 
+package on these systems are:
+
+2013 Macbook Pro – 2.6 gGHz i7 16 GB memory
+Real time 2m 46s CP time 1m 14s
+2018 Asus/Samsung 250 GB USB3 SSD
+Real time 1m 56s CP time 1m 2s
+2018 Asus/iRecadata 64 GB USB3 SSD
+Real time 1m 43s CP time 1m 3s
+
+I purchased the USB3 connected SSD at Amazon. 
+
+To enable booting a Windows 10 computer from a usb drive I followed 
+instructions at:https://www.asus.com/support/FAQ/1030858/
+
+I installed Linux using instructions at 
+https://askubuntu.com/questions/170454/can-i-install-ubuntu-to-my-32-gb-usb-pen-drive. Look for “how to install Ubuntu To USB Drives. This URL is much better 
+than another site that claims to be “the easy way”.
+
+I hope you find this information useful. Share your experience with me.
