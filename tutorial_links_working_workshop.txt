@@ -27,7 +27,7 @@ also read the "advanced installation" guide about prerequisites that must be
 installed.
 
 Learning python
-   Jupyter notebook- To learn a litle read:
+   Jupyter notebook- To learn a little read:
        getting_started_with_jupyter_notebooks.txt 
    Mathlab users may find NumPy4MATLAB_users.pdf useful
    More information is in getting_started_with_python.txt
@@ -40,13 +40,13 @@ https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf
             Introduction to Numerical Computing with NumPy
             Anatomy of Matplotlib    
   
-   Read and writ Madagascar data: simple_m8r_create_write_filter_read.ipynb
+   Read and write Madagascar data: simple_m8r_create_write_filter_read.ipynb
    Reading and writing segy data:
        Segyio is a small LGPL licenced C library with binding for Python3 and 
            Matlab. The file:
             https://github.com/Statoil/segyio/blob/master/README.md includes 
             sections on how to get segyio and a tutorial with examples.
-   TLE tutorials can inspite.  read:
+   TLE tutorials can inspire.  read:
       https://wiki.seg.org/wiki/Geophysical_tutorials
       clone:
       git clone http://github.com/seg/tutorials
