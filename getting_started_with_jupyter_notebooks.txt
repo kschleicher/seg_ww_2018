@@ -1,6 +1,6 @@
-This is very quickly writen, but I hope it will get you started
+This is very quickly written, but I hope it will get you started
 
-Jupyter allows you to interactivly program in python and other languages.
+Jupyter allows you to interactively program in python and other languages.
 It is a free package.  Search online, download, and install the package.
 
 Once installed you can start with:
@@ -9,7 +9,7 @@ jupyter notebook
 This will start Jupyter in a new browser tab and allow you to open a new or an 
 existing notebook.  Open a new python notebook.
 
-A new tab will open in you broser.  You will see a heade with drop down menus
+A new tab will open in you browser.  You will see a header with drop down menus
 and icons and a cell for code entry.
 
 Type this line of python in the cell:
@@ -22,7 +22,7 @@ print will appear below the cell, and a new cell will appear.
 In this cell type:
 for i in range(2):
     print(i)
-Just tpye return after the first line and the second line will appear for you 
+Just type return after the first line and the second line will appear for you 
 continue typing.  The indentation is automatic.  Execute this code with 
 shift-enter.
 
@@ -30,39 +30,51 @@ The cell becomes numbered and the output appears below the cell.  In this cell
 run:
 i=22
 i
-This will output the value 22.  The vlue of i when the last line is executed.
+This will output the value 22.  The value of i when the last line is executed.
 
 Go back to cell 1 and change the cell to:
 print ("hello world")
 and run the cell.  You will see the cell will become labeled "In [4]" and 
 hello world appears below the line.
 
-You can jump arround adding cells and executing cells in any order.  The '+' 
+You can jump around adding cells and executing cells in any order.  The '+' 
 icon will allow you to add a new cell.  The up down arrows will allow you to 
-moce cells up and down.  The scissors icon will delete a cell.  
+move cells up and down.  The scissors icon will delete a cell.  
 'Edit"->"Split cell" will split a cell at your cursor location.
 
 You can (and often will) run the cells non-sequentially when you write code, 
 explore data, and debug your procedures.  You may loose track of the order the 
 code was ran and have problems understanding your variable values.  The time 
-may come when you want to resun from the beginning.  The 'kernel' item will 
+may come when you want to rerun from the beginning.  The 'kernel' item will 
 pull down a menu and let you "Restart & Clear Output".  This allows you to 
 start again.
  
 If you look at the top of the tab you will see the notebook is called 
-"Untitled1".  You notebook is frequently automaticly saved to Untitles.ipynb.  
+"Untitled1".  You notebook is frequently automatically saved to Untitles.ipynb.  
 You can click "Untitled1" and change the notebook name to 'myprog1'.
 
-You can also click 'File'->'make a copy' and the notebook will be copies and 
-vien the naem "Untitled1-Copy1".  Making a copy is different from renaming the 
+You can also click 'File'->'make a copy' and the notebook will be copied and 
+new the name is "Untitled1-Copy1".  Making a copy is different from renaming the 
 file.
 
-When I am done workign on my notebook I click "logout".  Closing the tab leaves
-that notbook running in the background.  You can also shut down your notebooks 
+When I am done working on my notebook I click "logout".  Closing the tab leaves
+that notebook running in the background.  You can also shut down your notebooks 
 from the Jupyter's 'home" tab in the browser.  I often end up with jupyter 
 running, but not attached to a tab.  I just terminate it using a double cntl-c 
-in the terminal window.  Somtime sI beed to run fg first because I have jupyter 
+in the terminal window.  Sometimes I need to run ‘fg’ first because I have jupyter 
 running in the backgrpund.  Maybe my practice is not "proper", but it works.
 
+You can get documentation on a function by typing the name of the function with ? and then <shift><enter>. For example:
+print? <shift><enter>
+
+Jupyter with auto complete with a tab.  For example:
+after you complete: 
+import numpy as np
+
+When you enter:
+myarray=np.zero<tab>
+Jupyter with suggest zeros and zeros_like.
+
+
 I hope you know enough to start "learning by experimenting" with jupyter.  You 
-also can ask questions in google.
+also can ask questions in Google.
